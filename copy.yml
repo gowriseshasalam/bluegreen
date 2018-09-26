@@ -6,5 +6,5 @@
     - name: example copying file with owner and permissions
       copy:
         src: /home/jenkins/jenkins_slave/workspace/Buildtest/index.html
-        dest: /var/www/html/index.html
+        dest: /var/lib/tomcat8/webapps/ROOT/index.html
         owner: ansible
