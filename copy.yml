@@ -1,0 +1,10 @@
+---
+- name: Copy
+  hosts: apache
+  sudo: yes
+  tasks:
+    - name: example copying file with owner and permissions
+      copy:
+        src: /home/jenkins/jenkins_slave/workspace/Buildtest/index.html
+        dest: /var/www/html/index.html
+        owner: ansible
