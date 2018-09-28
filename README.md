@@ -1,2 +1,2 @@
 # bluegreen
-Blue green deployments 
+Blue green deployment
